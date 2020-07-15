@@ -4,6 +4,6 @@
 
 ## What I Learned
 
-### Character class
-### String methods
-### StringBuilder class
+### * Character class
+### * String methods
+### * StringBuilder class
