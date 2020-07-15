@@ -34,8 +34,15 @@ public class WordSeparator {
             
         }
         
-        System.out.println(str);
-            
+        // Convert uppercase letters to lowercase except the first letter        
+        for (int j = 1; j < str.length(); j++){
+            if(Character.isUpperCase(str.charAt(j))){
+                char letter = Character.toLowerCase(str.charAt(j));
+                str.setCharAt(j, letter);
+            }
+        }
+        
+        System.out.println(str);            
     }
     
 }
